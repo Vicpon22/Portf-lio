@@ -1,0 +1,204 @@
+/* ESTILO GERAL  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .poppins-regular {
+        font-family: "Poppins", sans-serif;
+       
+      
+      }
+      
+}
+
+body{
+    background-color: #add8e6;  
+    height: 200vh;
+
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+   display: flex;
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #b14803e8;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+ 
+}
+
+h2.titulo{
+    color: #003546;
+    font-size: 28px;
+    
+}
+
+
+
+/* Estilo do CABEÇALHO */
+
+header{
+    padding: 40px 11;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #a70202;
+    text-decoration: none;
+     display: inline-block;
+}
+ haead
+.nav.bar.navbar_content{
+    padding: 3rem 4rem 1rem;
+    display: flex;    
+}
+
+.nav.bar.navbar_content .navbar_links li{
+display: inline-block;
+}
+
+.nav.bar.navbar_content .navbar_links li:not(:last-of-type){
+    margin-right: 3rem;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.5);
+}
+
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+ display: inline-block;
+   padding:0 40px;
+  
+}
+
+
+
+/* ESTILO  DO TOPO DO SITE  */
+
+section.topo-do-site{
+    padding: 40px 4;
+     
+}
+ section.topo-do-site .flex {
+    align-items: center;
+     justify-content: center;      
+    
+}
+
+.topo-do-site .txt .topo-do-site h1{
+   color: #0b5269;
+}
+ 
+.topo-do-site h1 span{
+    color: #0b5269;
+ font-size: 42px;
+
+}
+
+.topo-do-site .txt-topo-site p{
+ color: #0b5269;
+margin: 40px 0;
+}
+
+
+button {
+    background-color: rgb(80, 198, 235); /* Define a cor de fundo do botão como verde */
+    color: rgb(0, 0, 0); /* Define a cor do texto como branco para melhor contraste */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Adiciona um pouco de espaço interno para torná-lo mais visível */
+    border-radius: 5px; /* Arredonda as bordas do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+
+/* ESTILO DAS ESPECIALIDADES  */
+
+
+/* Para centralizar os tópicos */
+.topicos {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    display: block; /* Faz com que o elemento ocupe toda a largura disponível */
+    margin: 0 auto; /* Centraliza o elemento na página */
+  }
+  
+  /* Para aumentar o tamanho dos ícones do Bootstrap */
+  .icones-bootstrap {
+    font-size: 24px; /* Aumenta o tamanho da fonte, e consequentemente o ícone */
+  }
+  
+.especialidades.especialidades-box i{
+    font-size: px;
+}
+
+
+
+
+
+/* estilo sobre */
+
+
+
+.topico {
+    margin-top: 20px; /* Ajuste o valor conforme necessário para obter o espaçamento desejado */
+  }
+  
+
+
+
+
+
+
+
+  p {
+    margin-top: 20px; /* Espaço acima do parágrafo */
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+  }
+  
+
+
+
+
+
+
+/* Aumenta a especificidade com o uso de ID ou uma classe mais específica */
+#meu-portfolio-titulo {
+    margin-bottom: 40px; /* Aumenta o espaço abaixo do título 'Meu Portfólio' */
+  }
+  
+  #sobre-mim-secao {
+    margin-top: 40px; /* Aumenta o espaço acima da seção 'Sobre Mim' */
+  }
+  
+  
+  #meu-portfolio-titulo {
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+  style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
